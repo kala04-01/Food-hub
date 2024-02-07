@@ -55,12 +55,12 @@ nav .nav-container .search input{
     font-size: 1 rem;
     height: 100%;
     background-color: transparent;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     outline: none;
 }
 nav .nav-container .search i{
-    color: white;
+    color: rgb(31, 139, 138);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,7 +138,7 @@ section{
 /* about */
 .about{
     box-shadow: -5px -5px 100px black;
-    background: black;
+    background: rgb(242, 236, 236);
 }
 .about .container{
     width: 100%;
@@ -150,11 +150,11 @@ section{
 
 /*food details */
 .details-foods{
-    background-color: black;
+    background-color: rgb(241, 236, 236);
 }
 
 .details-foods .title{
-    width: 100%;
+    width: 120%;
     margin: 30px 0;
     height: auto;
     display: flex;
@@ -162,7 +162,7 @@ section{
 }
 .details-foods .title h1{
     font-size: 3rem;
-    color: white;
+    color: rgb(28, 28, 28);
     text-align: center;
     width: 40%;
 }
@@ -174,8 +174,8 @@ section{
 .details-foods .foods .card{
     margin: 0 10px;
     cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(37, 36, 36);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,13 +192,18 @@ section{
     scale: 1;
 }
 .details-foods .foods .card img{
-    width: 70%;
-    margin: 0 15%;
+    width: 60%;
+    margin:-20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+      
 }
 
 .details-foods .foods .card .discription{
-    color: white;
-    margin: 0 10px;
+    color: rgb(16, 15, 15);
+    margin: 10px;
 }
 
 .details-foods .foods .card .discription h1{
@@ -210,12 +215,12 @@ section{
 
 
 .details-foods .foods .card .discription p{
-    float: left;
+    float:center;
     margin-left: 2px;
 }
  
 .details-foods .foods .card .discription .price{
-    float: right;
+    float: center;
     font-family: 'lemon', serif;
     margin: 10px 20px 10px 0;
 }
@@ -223,7 +228,7 @@ section{
 /* download */
  
 .download{
-    background-color: black;
+    background-color: rgb(248, 243, 243);
 }
 
 .download .container{
@@ -240,7 +245,7 @@ section{
     margin-left: 40px;
 }
 .download .container .content{
-    color: white;
+    color: rgb(34, 33, 33);
     width: 40%;
 }
 .download .container .content h1{
